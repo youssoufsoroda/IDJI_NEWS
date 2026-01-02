@@ -1,0 +1,66 @@
+.
+├── android
+│   ├── app
+│   │   ├── src
+│   │   └── build.gradle
+│   ├── build.gradle
+│   └── gradle.properties
+├── app
+│   ├── (tabs)
+│   │   ├── _layout.tsx
+│   │   ├── booking.tsx
+│   │   ├── contact.tsx
+│   │   ├── news.tsx
+│   │   └── profile.tsx
+│   ├── _layout.tsx
+│   ├── index.tsx
+│   ├── login.tsx
+│   └── register.tsx
+├── assets
+│   └── README.md
+├── src
+│   ├── components
+│   │   ├── Button.tsx
+│   │   ├── Card.tsx
+│   │   ├── EmptyState.tsx
+│   │   ├── ErrorView.tsx
+│   │   ├── Input.tsx
+│   │   └── LoadingSkeleton.tsx
+│   ├── config
+│   │   ├── supabase.ts
+│   │   └── theme.ts
+│   ├── screens
+│   │   ├── BookingScreen.tsx
+│   │   ├── ContactScreen.tsx
+│   │   ├── LoginScreen.tsx
+│   │   ├── NewsScreen.tsx
+│   │   ├── ProfileScreen.tsx
+│   │   ├── RegisterScreen.tsx
+│   │   ├── SplashScreen.tsx
+│   │   └── TermsScreen.tsx
+│   ├── services
+│   │   └── api.ts
+│   ├── store
+│   │   ├── useAuthStore.ts
+│   │   └── useThemeStore.ts
+│   └── types
+│       └── index.ts
+├── supabase
+│   └── schema.sql
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── DEPLOYMENT.md
+├── PROJECT_STRUCTURE.txt
+├── PROJECT_SUMMARY.md
+├── QUICKSTART.md
+├── README.md
+├── SUPABASE_SETUP.md
+├── app.config.ts
+├── babel.config.js
+├── eas.json
+├── expo-env.d.ts
+├── metro.config.js
+├── package.json
+└── tsconfig.json
+
+14 directories, 49 files
